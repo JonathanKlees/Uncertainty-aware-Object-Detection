@@ -1,0 +1,5425 @@
+{
+    "dataset_name": "Kitti",
+    "classes": [
+        "car",
+        "van",
+        "truck",
+        "pedestrian",
+        "personsitting",
+        "cyclist",
+        "tram",
+        "cantsolve"
+    ],
+    "all_samples": [
+        {
+            "box_id": "003253.png_0",
+            "image_name": "003253.png",
+            "bbox": [
+                394,
+                166,
+                412,
+                182
+            ],
+            "soft_label": [
+                0.0,
+                0.6818181818181818,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.6818181818181818,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "004052.png_1",
+            "image_name": "004052.png",
+            "bbox": [
+                1052,
+                174,
+                1116,
+                216
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "004027.png_0",
+            "image_name": "004027.png",
+            "bbox": [
+                915,
+                223,
+                966,
+                293
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "personsitting",
+            "drawn_class_index": 4,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "003995.png_0",
+            "image_name": "003995.png",
+            "bbox": [
+                781,
+                160,
+                809,
+                223
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004934.png_5",
+            "image_name": "004934.png",
+            "bbox": [
+                618,
+                170,
+                632,
+                188
+            ],
+            "soft_label": [
+                0.0,
+                0.5454545454545454,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.36363636363636365
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 5,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "006841.png_1",
+            "image_name": "006841.png",
+            "bbox": [
+                704,
+                163,
+                770,
+                173
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.6363636363636364,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.36363636363636365
+            ],
+            "drawn_prob": 0.6363636363636364,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "007022.png_0",
+            "image_name": "007022.png",
+            "bbox": [
+                520,
+                173,
+                536,
+                186
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "004315.png_0",
+            "image_name": "004315.png",
+            "bbox": [
+                557,
+                169,
+                564,
+                178
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.2727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7272727272727273
+            ],
+            "drawn_prob": 0.2727272727272727,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "002691.png_2",
+            "image_name": "002691.png",
+            "bbox": [
+                636,
+                141,
+                683,
+                201
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004452.png_0",
+            "image_name": "004452.png",
+            "bbox": [
+                1,
+                184,
+                457,
+                374
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002636.png_0",
+            "image_name": "002636.png",
+            "bbox": [
+                798,
+                167,
+                809,
+                200
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "cyclist",
+            "drawn_class_index": 5,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "001071.png_0",
+            "image_name": "001071.png",
+            "bbox": [
+                667,
+                181,
+                730,
+                232
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "005041.png_0",
+            "image_name": "005041.png",
+            "bbox": [
+                470,
+                178,
+                482,
+                189
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "005886.png_0",
+            "image_name": "005886.png",
+            "bbox": [
+                349,
+                177,
+                408,
+                200
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002705.png_1",
+            "image_name": "002705.png",
+            "bbox": [
+                523,
+                182,
+                541,
+                199
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "004299.png_1",
+            "image_name": "004299.png",
+            "bbox": [
+                520,
+                140,
+                599,
+                198
+            ],
+            "soft_label": [
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002189.png_0",
+            "image_name": "002189.png",
+            "bbox": [
+                550,
+                174,
+                556,
+                189
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "003043.png_0",
+            "image_name": "003043.png",
+            "bbox": [
+                589,
+                170,
+                594,
+                176
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "003910.png_0",
+            "image_name": "003910.png",
+            "bbox": [
+                629,
+                178,
+                636,
+                191
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "001497.png_0",
+            "image_name": "001497.png",
+            "bbox": [
+                689,
+                178,
+                745,
+                219
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001690.png_1",
+            "image_name": "001690.png",
+            "bbox": [
+                658,
+                174,
+                701,
+                202
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "006614.png_0",
+            "image_name": "006614.png",
+            "bbox": [
+                569,
+                174,
+                593,
+                194
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "007273.png_1",
+            "image_name": "007273.png",
+            "bbox": [
+                568,
+                182,
+                574,
+                195
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "001537.png_1",
+            "image_name": "001537.png",
+            "bbox": [
+                552,
+                174,
+                561,
+                180
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.5909090909090909,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "002489.png_0",
+            "image_name": "002489.png",
+            "bbox": [
+                490,
+                190,
+                531,
+                219
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "005625.png_1",
+            "image_name": "005625.png",
+            "bbox": [
+                454,
+                180,
+                504,
+                213
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004568.png_0",
+            "image_name": "004568.png",
+            "bbox": [
+                544,
+                189,
+                550,
+                195
+            ],
+            "soft_label": [
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "002027.png_1",
+            "image_name": "002027.png",
+            "bbox": [
+                542,
+                173,
+                569,
+                197
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001528.png_0",
+            "image_name": "001528.png",
+            "bbox": [
+                499,
+                175,
+                518,
+                198
+            ],
+            "soft_label": [
+                0.0,
+                0.045454545454545456,
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "003918.png_0",
+            "image_name": "003918.png",
+            "bbox": [
+                640,
+                178,
+                651,
+                189
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "005013.png_0",
+            "image_name": "005013.png",
+            "bbox": [
+                694,
+                179,
+                730,
+                217
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004052.png_3",
+            "image_name": "004052.png",
+            "bbox": [
+                0,
+                191,
+                97,
+                230
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004052.png_2",
+            "image_name": "004052.png",
+            "bbox": [
+                1039,
+                157,
+                1105,
+                185
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "000713.png_2",
+            "image_name": "000713.png",
+            "bbox": [
+                202,
+                168,
+                212,
+                185
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.5,
+                0.0,
+                0.0,
+                0.0,
+                0.5
+            ],
+            "drawn_prob": 0.5,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "002088.png_1",
+            "image_name": "002088.png",
+            "bbox": [
+                498,
+                177,
+                529,
+                189
+            ],
+            "soft_label": [
+                0.6818181818181818,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.6818181818181818,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.6
+            }
+        },
+        {
+            "box_id": "003769.png_0",
+            "image_name": "003769.png",
+            "bbox": [
+                550,
+                177,
+                559,
+                185
+            ],
+            "soft_label": [
+                0.6818181818181818,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "005384.png_0",
+            "image_name": "005384.png",
+            "bbox": [
+                510,
+                149,
+                563,
+                207
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002410.png_0",
+            "image_name": "002410.png",
+            "bbox": [
+                919,
+                157,
+                979,
+                369
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "006166.png_1",
+            "image_name": "006166.png",
+            "bbox": [
+                111,
+                202,
+                141,
+                226
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "003586.png_0",
+            "image_name": "003586.png",
+            "bbox": [
+                508,
+                168,
+                517,
+                186
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "personsitting",
+            "drawn_class_index": 4,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "004786.png_1",
+            "image_name": "004786.png",
+            "bbox": [
+                963,
+                179,
+                974,
+                207
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "002297.png_0",
+            "image_name": "002297.png",
+            "bbox": [
+                262,
+                171,
+                306,
+                195
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001089.png_0",
+            "image_name": "001089.png",
+            "bbox": [
+                301,
+                186,
+                360,
+                235
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "000048.png_1",
+            "image_name": "000048.png",
+            "bbox": [
+                390,
+                170,
+                401,
+                202
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182,
+                0.6363636363636364,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.18181818181818182,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004838.png_0",
+            "image_name": "004838.png",
+            "bbox": [
+                512,
+                158,
+                546,
+                196
+            ],
+            "soft_label": [
+                0.3181818181818182,
+                0.0,
+                0.6363636363636364,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.1
+            }
+        },
+        {
+            "box_id": "001607.png_0",
+            "image_name": "001607.png",
+            "bbox": [
+                664,
+                171,
+                671,
+                177
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "006980.png_1",
+            "image_name": "006980.png",
+            "bbox": [
+                489,
+                172,
+                508,
+                237
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "000512.png_0",
+            "image_name": "000512.png",
+            "bbox": [
+                557,
+                183,
+                563,
+                189
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "000752.png_0",
+            "image_name": "000752.png",
+            "bbox": [
+                542,
+                170,
+                567,
+                194
+            ],
+            "soft_label": [
+                0.0,
+                0.6818181818181818,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "001955.png_1",
+            "image_name": "001955.png",
+            "bbox": [
+                860,
+                169,
+                914,
+                187
+            ],
+            "soft_label": [
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "005306.png_0",
+            "image_name": "005306.png",
+            "bbox": [
+                666,
+                182,
+                697,
+                218
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002645.png_0",
+            "image_name": "002645.png",
+            "bbox": [
+                1178,
+                173,
+                1202,
+                182
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "006484.png_0",
+            "image_name": "006484.png",
+            "bbox": [
+                480,
+                175,
+                495,
+                193
+            ],
+            "soft_label": [
+                0.09090909090909091,
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "005598.png_1",
+            "image_name": "005598.png",
+            "bbox": [
+                527,
+                173,
+                543,
+                214
+            ],
+            "soft_label": [
+                0.045454545454545456,
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "005316.png_1",
+            "image_name": "005316.png",
+            "bbox": [
+                785,
+                181,
+                807,
+                189
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "002870.png_0",
+            "image_name": "002870.png",
+            "bbox": [
+                1024,
+                159,
+                1099,
+                281
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "000956.png_0",
+            "image_name": "000956.png",
+            "bbox": [
+                174,
+                183,
+                253,
+                195
+            ],
+            "soft_label": [
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "001640.png_1",
+            "image_name": "001640.png",
+            "bbox": [
+                618,
+                165,
+                632,
+                174
+            ],
+            "soft_label": [
+                0.6363636363636364,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.36363636363636365
+            ],
+            "drawn_prob": 0.6363636363636364,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "006622.png_0",
+            "image_name": "006622.png",
+            "bbox": [
+                542,
+                168,
+                565,
+                188
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "006192.png_1",
+            "image_name": "006192.png",
+            "bbox": [
+                558,
+                180,
+                584,
+                210
+            ],
+            "soft_label": [
+                0.2727272727272727,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.2727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.6
+            }
+        },
+        {
+            "box_id": "000189.png_1",
+            "image_name": "000189.png",
+            "bbox": [
+                548,
+                131,
+                578,
+                227
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001843.png_1",
+            "image_name": "001843.png",
+            "bbox": [
+                569,
+                183,
+                583,
+                192
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "003642.png_0",
+            "image_name": "003642.png",
+            "bbox": [
+                534,
+                171,
+                568,
+                205
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.6
+            }
+        },
+        {
+            "box_id": "000586.png_0",
+            "image_name": "000586.png",
+            "bbox": [
+                688,
+                155,
+                793,
+                220
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "006660.png_0",
+            "image_name": "006660.png",
+            "bbox": [
+                735,
+                171,
+                884,
+                230
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001711.png_0",
+            "image_name": "001711.png",
+            "bbox": [
+                423,
+                170,
+                481,
+                198
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "003409.png_0",
+            "image_name": "003409.png",
+            "bbox": [
+                652,
+                174,
+                665,
+                194
+            ],
+            "soft_label": [
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "003676.png_1",
+            "image_name": "003676.png",
+            "bbox": [
+                565,
+                174,
+                576,
+                183
+            ],
+            "soft_label": [
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.6
+            }
+        },
+        {
+            "box_id": "003101.png_0",
+            "image_name": "003101.png",
+            "bbox": [
+                412,
+                181,
+                421,
+                193
+            ],
+            "soft_label": [
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "002774.png_0",
+            "image_name": "002774.png",
+            "bbox": [
+                625,
+                178,
+                630,
+                189
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "001661.png_0",
+            "image_name": "001661.png",
+            "bbox": [
+                884,
+                165,
+                921,
+                253
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "000169.png_1",
+            "image_name": "000169.png",
+            "bbox": [
+                345,
+                178,
+                459,
+                213
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "006580.png_0",
+            "image_name": "006580.png",
+            "bbox": [
+                586,
+                171,
+                600,
+                179
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "003003.png_0",
+            "image_name": "003003.png",
+            "bbox": [
+                520,
+                166,
+                529,
+                174
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.6
+            }
+        },
+        {
+            "box_id": "000297.png_0",
+            "image_name": "000297.png",
+            "bbox": [
+                537,
+                175,
+                554,
+                195
+            ],
+            "soft_label": [
+                0.0,
+                0.045454545454545456,
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "003055.png_0",
+            "image_name": "003055.png",
+            "bbox": [
+                0,
+                215,
+                29,
+                226
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.1
+            }
+        },
+        {
+            "box_id": "004626.png_0",
+            "image_name": "004626.png",
+            "bbox": [
+                3,
+                176,
+                207,
+                290
+            ],
+            "soft_label": [
+                0.5454545454545454,
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001690.png_0",
+            "image_name": "001690.png",
+            "bbox": [
+                703,
+                178,
+                737,
+                228
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "001172.png_1",
+            "image_name": "001172.png",
+            "bbox": [
+                0,
+                190,
+                228,
+                329
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "003866.png_0",
+            "image_name": "003866.png",
+            "bbox": [
+                707,
+                149,
+                776,
+                185
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.9545454545454546,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "003842.png_1",
+            "image_name": "003842.png",
+            "bbox": [
+                731,
+                171,
+                740,
+                177
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "002929.png_2",
+            "image_name": "002929.png",
+            "bbox": [
+                1115,
+                156,
+                1157,
+                176
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "005532.png_1",
+            "image_name": "005532.png",
+            "bbox": [
+                355,
+                147,
+                382,
+                180
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.7272727272727273,
+                0.0,
+                0.045454545454545456,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "cyclist",
+            "drawn_class_index": 5,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.1
+            }
+        },
+        {
+            "box_id": "004702.png_0",
+            "image_name": "004702.png",
+            "bbox": [
+                393,
+                169,
+                406,
+                180
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.36363636363636365
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "003676.png_0",
+            "image_name": "003676.png",
+            "bbox": [
+                273,
+                177,
+                400,
+                256
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "005028.png_1",
+            "image_name": "005028.png",
+            "bbox": [
+                650,
+                174,
+                656,
+                185
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "cyclist",
+            "drawn_class_index": 5,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "001525.png_0",
+            "image_name": "001525.png",
+            "bbox": [
+                685,
+                168,
+                764,
+                236
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002006.png_0",
+            "image_name": "002006.png",
+            "bbox": [
+                535,
+                165,
+                549,
+                180
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.6818181818181818,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "tram",
+            "drawn_class_index": 6,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.0
+            }
+        },
+        {
+            "box_id": "002583.png_0",
+            "image_name": "002583.png",
+            "bbox": [
+                530,
+                163,
+                583,
+                206
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004367.png_0",
+            "image_name": "004367.png",
+            "bbox": [
+                641,
+                159,
+                672,
+                193
+            ],
+            "soft_label": [
+                0.045454545454545456,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.1
+            }
+        },
+        {
+            "box_id": "002424.png_0",
+            "image_name": "002424.png",
+            "bbox": [
+                35,
+                176,
+                47,
+                203
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.7272727272727273
+            ],
+            "drawn_prob": 0.2727272727272727,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.0
+            }
+        },
+        {
+            "box_id": "005598.png_0",
+            "image_name": "005598.png",
+            "bbox": [
+                1207,
+                175,
+                1224,
+                194
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.0
+            }
+        },
+        {
+            "box_id": "005443.png_0",
+            "image_name": "005443.png",
+            "bbox": [
+                0,
+                171,
+                227,
+                330
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "000922.png_0",
+            "image_name": "000922.png",
+            "bbox": [
+                748,
+                159,
+                1008,
+                321
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "005625.png_2",
+            "image_name": "005625.png",
+            "bbox": [
+                39,
+                184,
+                280,
+                291
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "004766.png_0",
+            "image_name": "004766.png",
+            "bbox": [
+                626,
+                174,
+                641,
+                189
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "006673.png_0",
+            "image_name": "006673.png",
+            "bbox": [
+                400,
+                170,
+                533,
+                227
+            ],
+            "soft_label": [
+                0.8636363636363636,
+                0.13636363636363635,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.13636363636363635,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "005306.png_1",
+            "image_name": "005306.png",
+            "bbox": [
+                528,
+                178,
+                586,
+                225
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001084.png_0",
+            "image_name": "001084.png",
+            "bbox": [
+                702,
+                158,
+                713,
+                170
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "005971.png_0",
+            "image_name": "005971.png",
+            "bbox": [
+                453,
+                191,
+                459,
+                198
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "006389.png_0",
+            "image_name": "006389.png",
+            "bbox": [
+                568,
+                179,
+                759,
+                353
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "005170.png_2",
+            "image_name": "005170.png",
+            "bbox": [
+                748,
+                155,
+                765,
+                197
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "004261.png_0",
+            "image_name": "004261.png",
+            "bbox": [
+                631,
+                187,
+                638,
+                221
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "005700.png_0",
+            "image_name": "005700.png",
+            "bbox": [
+                459,
+                179,
+                487,
+                192
+            ],
+            "soft_label": [
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "000101.png_2",
+            "image_name": "000101.png",
+            "bbox": [
+                410,
+                185,
+                435,
+                196
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "000167.png_0",
+            "image_name": "000167.png",
+            "bbox": [
+                1013,
+                176,
+                1029,
+                184
+            ],
+            "soft_label": [
+                0.6818181818181818,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.6818181818181818,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "002917.png_0",
+            "image_name": "002917.png",
+            "bbox": [
+                928,
+                166,
+                938,
+                172
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "001708.png_0",
+            "image_name": "001708.png",
+            "bbox": [
+                576,
+                168,
+                593,
+                188
+            ],
+            "soft_label": [
+                0.0,
+                0.8181818181818182,
+                0.13636363636363635,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.13636363636363635,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001336.png_1",
+            "image_name": "001336.png",
+            "bbox": [
+                383,
+                173,
+                474,
+                239
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001787.png_0",
+            "image_name": "001787.png",
+            "bbox": [
+                393,
+                184,
+                422,
+                208
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "007386.png_0",
+            "image_name": "007386.png",
+            "bbox": [
+                1101,
+                166,
+                1241,
+                229
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "005098.png_0",
+            "image_name": "005098.png",
+            "bbox": [
+                536,
+                169,
+                568,
+                185
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.36363636363636365
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "003842.png_0",
+            "image_name": "003842.png",
+            "bbox": [
+                851,
+                185,
+                996,
+                289
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002740.png_0",
+            "image_name": "002740.png",
+            "bbox": [
+                593,
+                157,
+                609,
+                180
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "006084.png_2",
+            "image_name": "006084.png",
+            "bbox": [
+                684,
+                156,
+                787,
+                219
+            ],
+            "soft_label": [
+                0.09090909090909091,
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "002991.png_2",
+            "image_name": "002991.png",
+            "bbox": [
+                339,
+                187,
+                344,
+                202
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "002245.png_1",
+            "image_name": "002245.png",
+            "bbox": [
+                26,
+                180,
+                91,
+                205
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.0
+            }
+        },
+        {
+            "box_id": "007183.png_2",
+            "image_name": "007183.png",
+            "bbox": [
+                754,
+                167,
+                776,
+                173
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.5909090909090909,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "005736.png_0",
+            "image_name": "005736.png",
+            "bbox": [
+                492,
+                169,
+                543,
+                219
+            ],
+            "soft_label": [
+                0.22727272727272727,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.22727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "002720.png_0",
+            "image_name": "002720.png",
+            "bbox": [
+                426,
+                187,
+                444,
+                196
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "006500.png_1",
+            "image_name": "006500.png",
+            "bbox": [
+                561,
+                168,
+                569,
+                175
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "005284.png_0",
+            "image_name": "005284.png",
+            "bbox": [
+                518,
+                174,
+                526,
+                181
+            ],
+            "soft_label": [
+                0.5,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5
+            ],
+            "drawn_prob": 0.5,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.6
+            }
+        },
+        {
+            "box_id": "004729.png_0",
+            "image_name": "004729.png",
+            "bbox": [
+                798,
+                167,
+                806,
+                190
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456,
+                0.6363636363636364,
+                0.0,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "004298.png_1",
+            "image_name": "004298.png",
+            "bbox": [
+                295,
+                173,
+                435,
+                228
+            ],
+            "soft_label": [
+                0.3181818181818182,
+                0.6818181818181818,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.6
+            }
+        },
+        {
+            "box_id": "000549.png_2",
+            "image_name": "000549.png",
+            "bbox": [
+                15,
+                175,
+                221,
+                298
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002972.png_0",
+            "image_name": "002972.png",
+            "bbox": [
+                789,
+                166,
+                820,
+                201
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "004443.png_0",
+            "image_name": "004443.png",
+            "bbox": [
+                503,
+                171,
+                521,
+                183
+            ],
+            "soft_label": [
+                0.045454545454545456,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "000234.png_0",
+            "image_name": "000234.png",
+            "bbox": [
+                537,
+                181,
+                545,
+                196
+            ],
+            "soft_label": [
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "003320.png_0",
+            "image_name": "003320.png",
+            "bbox": [
+                1186,
+                192,
+                1240,
+                316
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "005497.png_0",
+            "image_name": "005497.png",
+            "bbox": [
+                744,
+                167,
+                751,
+                172
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "004766.png_1",
+            "image_name": "004766.png",
+            "bbox": [
+                1011,
+                135,
+                1088,
+                177
+            ],
+            "soft_label": [
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "000433.png_1",
+            "image_name": "000433.png",
+            "bbox": [
+                474,
+                173,
+                482,
+                180
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.5909090909090909,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "004759.png_0",
+            "image_name": "004759.png",
+            "bbox": [
+                596,
+                166,
+                607,
+                176
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "001965.png_0",
+            "image_name": "001965.png",
+            "bbox": [
+                615,
+                175,
+                626,
+                187
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002483.png_0",
+            "image_name": "002483.png",
+            "bbox": [
+                478,
+                177,
+                495,
+                188
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "003759.png_1",
+            "image_name": "003759.png",
+            "bbox": [
+                562,
+                176,
+                568,
+                190
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "003574.png_1",
+            "image_name": "003574.png",
+            "bbox": [
+                296,
+                185,
+                317,
+                194
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004453.png_0",
+            "image_name": "004453.png",
+            "bbox": [
+                666,
+                171,
+                674,
+                179
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "003574.png_0",
+            "image_name": "003574.png",
+            "bbox": [
+                328,
+                177,
+                359,
+                187
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "007151.png_0",
+            "image_name": "007151.png",
+            "bbox": [
+                585,
+                129,
+                678,
+                214
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "007031.png_2",
+            "image_name": "007031.png",
+            "bbox": [
+                569,
+                181,
+                577,
+                189
+            ],
+            "soft_label": [
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "003470.png_0",
+            "image_name": "003470.png",
+            "bbox": [
+                522,
+                180,
+                528,
+                188
+            ],
+            "soft_label": [
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "003851.png_0",
+            "image_name": "003851.png",
+            "bbox": [
+                435,
+                171,
+                479,
+                215
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "006474.png_0",
+            "image_name": "006474.png",
+            "bbox": [
+                607,
+                173,
+                616,
+                185
+            ],
+            "soft_label": [
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.6
+            }
+        },
+        {
+            "box_id": "002029.png_0",
+            "image_name": "002029.png",
+            "bbox": [
+                582,
+                182,
+                588,
+                196
+            ],
+            "soft_label": [
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "004244.png_0",
+            "image_name": "004244.png",
+            "bbox": [
+                426,
+                192,
+                434,
+                198
+            ],
+            "soft_label": [
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "002378.png_0",
+            "image_name": "002378.png",
+            "bbox": [
+                679,
+                178,
+                748,
+                225
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "005803.png_1",
+            "image_name": "005803.png",
+            "bbox": [
+                729,
+                182,
+                789,
+                201
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "003502.png_2",
+            "image_name": "003502.png",
+            "bbox": [
+                349,
+                158,
+                361,
+                182
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364,
+                0.0,
+                0.0,
+                0.0,
+                0.36363636363636365
+            ],
+            "drawn_prob": 0.6363636363636364,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "006834.png_0",
+            "image_name": "006834.png",
+            "bbox": [
+                462,
+                175,
+                474,
+                188
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.5909090909090909,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "002816.png_0",
+            "image_name": "002816.png",
+            "bbox": [
+                453,
+                174,
+                468,
+                188
+            ],
+            "soft_label": [
+                0.8636363636363636,
+                0.045454545454545456,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "001648.png_0",
+            "image_name": "001648.png",
+            "bbox": [
+                352,
+                158,
+                361,
+                181
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818,
+                0.0,
+                0.045454545454545456,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "cyclist",
+            "drawn_class_index": 5,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "003288.png_1",
+            "image_name": "003288.png",
+            "bbox": [
+                478,
+                179,
+                513,
+                209
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "001495.png_0",
+            "image_name": "001495.png",
+            "bbox": [
+                867,
+                168,
+                889,
+                187
+            ],
+            "soft_label": [
+                0.6818181818181818,
+                0.18181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.18181818181818182,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "007121.png_0",
+            "image_name": "007121.png",
+            "bbox": [
+                769,
+                186,
+                1085,
+                365
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "005848.png_0",
+            "image_name": "005848.png",
+            "bbox": [
+                486,
+                178,
+                502,
+                190
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004028.png_4",
+            "image_name": "004028.png",
+            "bbox": [
+                616,
+                172,
+                639,
+                251
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004574.png_0",
+            "image_name": "004574.png",
+            "bbox": [
+                396,
+                175,
+                436,
+                207
+            ],
+            "soft_label": [
+                0.0,
+                0.8181818181818182,
+                0.13636363636363635,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.13636363636363635,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.6
+            }
+        },
+        {
+            "box_id": "003347.png_0",
+            "image_name": "003347.png",
+            "bbox": [
+                298,
+                174,
+                345,
+                206
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.13636363636363635,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.13636363636363635,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "005539.png_1",
+            "image_name": "005539.png",
+            "bbox": [
+                510,
+                180,
+                517,
+                188
+            ],
+            "soft_label": [
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "002050.png_0",
+            "image_name": "002050.png",
+            "bbox": [
+                497,
+                186,
+                522,
+                212
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "006438.png_0",
+            "image_name": "006438.png",
+            "bbox": [
+                1175,
+                156,
+                1200,
+                175
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "006863.png_0",
+            "image_name": "006863.png",
+            "bbox": [
+                703,
+                177,
+                733,
+                188
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "001564.png_0",
+            "image_name": "001564.png",
+            "bbox": [
+                393,
+                179,
+                424,
+                197
+            ],
+            "soft_label": [
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "003676.png_4",
+            "image_name": "003676.png",
+            "bbox": [
+                600,
+                172,
+                606,
+                178
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "006040.png_0",
+            "image_name": "006040.png",
+            "bbox": [
+                107,
+                173,
+                410,
+                340
+            ],
+            "soft_label": [
+                0.6818181818181818,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "003508.png_1",
+            "image_name": "003508.png",
+            "bbox": [
+                641,
+                168,
+                684,
+                195
+            ],
+            "soft_label": [
+                0.18181818181818182,
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.18181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "003828.png_0",
+            "image_name": "003828.png",
+            "bbox": [
+                469,
+                169,
+                516,
+                182
+            ],
+            "soft_label": [
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "005557.png_1",
+            "image_name": "005557.png",
+            "bbox": [
+                537,
+                174,
+                556,
+                198
+            ],
+            "soft_label": [
+                0.0,
+                0.7727272727272727,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "006208.png_0",
+            "image_name": "006208.png",
+            "bbox": [
+                400,
+                196,
+                412,
+                203
+            ],
+            "soft_label": [
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "001921.png_0",
+            "image_name": "001921.png",
+            "bbox": [
+                367,
+                189,
+                423,
+                209
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "001185.png_0",
+            "image_name": "001185.png",
+            "bbox": [
+                972,
+                180,
+                982,
+                187
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "001425.png_1",
+            "image_name": "001425.png",
+            "bbox": [
+                602,
+                174,
+                609,
+                181
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.7
+            }
+        },
+        {
+            "box_id": "006451.png_0",
+            "image_name": "006451.png",
+            "bbox": [
+                271,
+                147,
+                326,
+                307
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001729.png_0",
+            "image_name": "001729.png",
+            "bbox": [
+                1035,
+                237,
+                1241,
+                374
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "000758.png_0",
+            "image_name": "000758.png",
+            "bbox": [
+                485,
+                168,
+                493,
+                176
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "006764.png_0",
+            "image_name": "006764.png",
+            "bbox": [
+                618,
+                175,
+                629,
+                194
+            ],
+            "soft_label": [
+                0.0,
+                0.45454545454545453,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "004281.png_0",
+            "image_name": "004281.png",
+            "bbox": [
+                236,
+                171,
+                431,
+                257
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.18181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.18181818181818182,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001468.png_0",
+            "image_name": "001468.png",
+            "bbox": [
+                702,
+                167,
+                762,
+                217
+            ],
+            "soft_label": [
+                0.2727272727272727,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.2727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "007066.png_1",
+            "image_name": "007066.png",
+            "bbox": [
+                1074,
+                162,
+                1087,
+                176
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.5
+            }
+        },
+        {
+            "box_id": "003830.png_2",
+            "image_name": "003830.png",
+            "bbox": [
+                0,
+                167,
+                306,
+                334
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "003308.png_1",
+            "image_name": "003308.png",
+            "bbox": [
+                628,
+                181,
+                636,
+                199
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.5909090909090909,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "002705.png_0",
+            "image_name": "002705.png",
+            "bbox": [
+                653,
+                174,
+                675,
+                195
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "006084.png_3",
+            "image_name": "006084.png",
+            "bbox": [
+                451,
+                174,
+                469,
+                186
+            ],
+            "soft_label": [
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "001201.png_0",
+            "image_name": "001201.png",
+            "bbox": [
+                402,
+                174,
+                428,
+                191
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "001333.png_0",
+            "image_name": "001333.png",
+            "bbox": [
+                616,
+                168,
+                633,
+                180
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "000518.png_1",
+            "image_name": "000518.png",
+            "bbox": [
+                811,
+                202,
+                846,
+                273
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "007265.png_2",
+            "image_name": "007265.png",
+            "bbox": [
+                657,
+                176,
+                670,
+                209
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.9545454545454546,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "004658.png_1",
+            "image_name": "004658.png",
+            "bbox": [
+                508,
+                176,
+                523,
+                191
+            ],
+            "soft_label": [
+                0.045454545454545456,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "003206.png_1",
+            "image_name": "003206.png",
+            "bbox": [
+                493,
+                163,
+                557,
+                239
+            ],
+            "soft_label": [
+                0.0,
+                0.09090909090909091,
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "003325.png_0",
+            "image_name": "003325.png",
+            "bbox": [
+                665,
+                183,
+                734,
+                232
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "006796.png_0",
+            "image_name": "006796.png",
+            "bbox": [
+                741,
+                168,
+                751,
+                197
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "004160.png_0",
+            "image_name": "004160.png",
+            "bbox": [
+                1061,
+                249,
+                1241,
+                374
+            ],
+            "soft_label": [
+                0.0,
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "van",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.3
+            }
+        },
+        {
+            "box_id": "003475.png_0",
+            "image_name": "003475.png",
+            "bbox": [
+                569,
+                178,
+                586,
+                193
+            ],
+            "soft_label": [
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "005539.png_0",
+            "image_name": "005539.png",
+            "bbox": [
+                1096,
+                157,
+                1106,
+                169
+            ],
+            "soft_label": [
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.2
+            }
+        },
+        {
+            "box_id": "000015.png_1",
+            "image_name": "000015.png",
+            "bbox": [
+                630,
+                174,
+                654,
+                195
+            ],
+            "soft_label": [
+                0.7727272727272727,
+                0.0,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.8
+            }
+        },
+        {
+            "box_id": "004028.png_1",
+            "image_name": "004028.png",
+            "bbox": [
+                544,
+                165,
+                549,
+                183
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "pedestrian",
+            "drawn_class_index": 3,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 0.4
+            }
+        },
+        {
+            "box_id": "006192.png_0",
+            "image_name": "006192.png",
+            "bbox": [
+                604,
+                187,
+                629,
+                203
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_2": 0.9
+            }
+        },
+        {
+            "box_id": "003725.png_1",
+            "image_name": "003725.png",
+            "bbox": [
+                597,
+                182,
+                621,
+                201
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        },
+        {
+            "box_id": "001464.png_2",
+            "image_name": "001464.png",
+            "bbox": [
+                646,
+                163,
+                664,
+                185
+            ],
+            "soft_label": [
+                0.0,
+                0.7272727272727273,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_2": 1.0
+            }
+        }
+    ],
+    "review_metadata": {
+        "current_index": 200,
+        "total_samples": 200,
+        "reviewed_samples_for_current_reviewer": 200,
+        "review_finished_for_current_reviewer": true,
+        "reviewer_id": "reviewer_2",
+        "answer_key": "human_class_agreement",
+        "current_rendered_image": "review_images/current_reviewer_2.jpg",
+        "output_json": "review_decisions/Kitti_class_or_not_review_reviewer_2.json"
+    }
+}

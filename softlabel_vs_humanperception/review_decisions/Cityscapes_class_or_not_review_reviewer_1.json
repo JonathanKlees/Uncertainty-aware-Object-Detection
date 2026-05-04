@@ -1,0 +1,5626 @@
+{
+    "dataset_name": "Cityscapes",
+    "classes": [
+        "person",
+        "rider",
+        "car",
+        "truck",
+        "bus",
+        "train",
+        "motorcycle",
+        "bicycle",
+        "cantsolve"
+    ],
+    "all_samples": [
+        {
+            "box_id": "frankfurt_000001_000538.png_4",
+            "image_name": "frankfurt_000001_000538.png",
+            "bbox": [
+                1416,
+                419,
+                1674,
+                587
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9545454545454546,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_082087.png_1",
+            "image_name": "frankfurt_000001_082087.png",
+            "bbox": [
+                165,
+                343,
+                430,
+                789
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_013496.png_0",
+            "image_name": "frankfurt_000001_013496.png",
+            "bbox": [
+                1551,
+                330,
+                1584,
+                394
+            ],
+            "soft_label": [
+                0.6818181818181818,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.6818181818181818,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_015389.png_2",
+            "image_name": "frankfurt_000000_015389.png",
+            "bbox": [
+                1107,
+                414,
+                1142,
+                434
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_011810.png_1",
+            "image_name": "frankfurt_000000_011810.png",
+            "bbox": [
+                1113,
+                392,
+                1143,
+                429
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9545454545454546,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_031416.png_0",
+            "image_name": "frankfurt_000001_031416.png",
+            "bbox": [
+                968,
+                378,
+                985,
+                392
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_014221.png_3",
+            "image_name": "frankfurt_000001_014221.png",
+            "bbox": [
+                1037,
+                381,
+                1053,
+                408
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.6818181818181818,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000150_000019.png_4",
+            "image_name": "munster_000150_000019.png",
+            "bbox": [
+                213,
+                381,
+                655,
+                762
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_002512.png_0",
+            "image_name": "frankfurt_000001_002512.png",
+            "bbox": [
+                744,
+                386,
+                757,
+                414
+            ],
+            "soft_label": [
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.8
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_048654.png_0",
+            "image_name": "frankfurt_000001_048654.png",
+            "bbox": [
+                1225,
+                373,
+                1368,
+                492
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000068_000019.png_2",
+            "image_name": "munster_000068_000019.png",
+            "bbox": [
+                1123,
+                409,
+                1196,
+                456
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000022_000019.png_3",
+            "image_name": "munster_000022_000019.png",
+            "bbox": [
+                1311,
+                421,
+                1343,
+                460
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_014565.png_0",
+            "image_name": "frankfurt_000001_014565.png",
+            "bbox": [
+                628,
+                400,
+                654,
+                436
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000068_000019.png_0",
+            "image_name": "munster_000068_000019.png",
+            "bbox": [
+                1542,
+                352,
+                1605,
+                493
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000059_000019.png_0",
+            "image_name": "munster_000059_000019.png",
+            "bbox": [
+                1502,
+                386,
+                1526,
+                404
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7272727272727273,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_035864.png_0",
+            "image_name": "frankfurt_000001_035864.png",
+            "bbox": [
+                557,
+                391,
+                656,
+                447
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000097_000019.png_1",
+            "image_name": "munster_000097_000019.png",
+            "bbox": [
+                1187,
+                412,
+                1350,
+                541
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_009504.png_1",
+            "image_name": "frankfurt_000001_009504.png",
+            "bbox": [
+                1389,
+                406,
+                1424,
+                499
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_020880.png_2",
+            "image_name": "frankfurt_000000_020880.png",
+            "bbox": [
+                994,
+                408,
+                1019,
+                422
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 0.6
+            }
+        },
+        {
+            "box_id": "munster_000013_000019.png_1",
+            "image_name": "munster_000013_000019.png",
+            "bbox": [
+                999,
+                421,
+                1013,
+                453
+            ],
+            "soft_label": [
+                0.7727272727272727,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_046779.png_0",
+            "image_name": "frankfurt_000001_046779.png",
+            "bbox": [
+                886,
+                400,
+                896,
+                442
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.5909090909090909,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000008_000019.png_0",
+            "image_name": "munster_000008_000019.png",
+            "bbox": [
+                1144,
+                429,
+                1185,
+                488
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_012868.png_0",
+            "image_name": "frankfurt_000000_012868.png",
+            "bbox": [
+                1332,
+                302,
+                1413,
+                564
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_072295.png_1",
+            "image_name": "frankfurt_000001_072295.png",
+            "bbox": [
+                1372,
+                399,
+                1434,
+                482
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000096_000019.png_0",
+            "image_name": "munster_000096_000019.png",
+            "bbox": [
+                896,
+                421,
+                914,
+                456
+            ],
+            "soft_label": [
+                0.6363636363636364,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "motorcycle",
+            "drawn_class_index": 6,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.7
+            }
+        },
+        {
+            "box_id": "munster_000139_000019.png_1",
+            "image_name": "munster_000139_000019.png",
+            "bbox": [
+                326,
+                375,
+                386,
+                531
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000041_000019.png_1",
+            "image_name": "munster_000041_000019.png",
+            "bbox": [
+                884,
+                438,
+                918,
+                495
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9090909090909091,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.7
+            }
+        },
+        {
+            "box_id": "munster_000069_000019.png_2",
+            "image_name": "munster_000069_000019.png",
+            "bbox": [
+                932,
+                372,
+                1016,
+                414
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.045454545454545456,
+                0.0,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000020_000019.png_5",
+            "image_name": "munster_000020_000019.png",
+            "bbox": [
+                1429,
+                420,
+                1436,
+                435
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.18181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8181818181818182
+            ],
+            "drawn_prob": 0.18181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 5,
+            "human_class_agreement": {
+                "reviewer_1": 0.5
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_051516.png_0",
+            "image_name": "frankfurt_000001_051516.png",
+            "bbox": [
+                1082,
+                374,
+                1122,
+                461
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_061682.png_0",
+            "image_name": "frankfurt_000001_061682.png",
+            "bbox": [
+                1660,
+                318,
+                1777,
+                475
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_014221.png_1",
+            "image_name": "frankfurt_000001_014221.png",
+            "bbox": [
+                985,
+                354,
+                996,
+                381
+            ],
+            "soft_label": [
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.5909090909090909,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.2
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_080391.png_2",
+            "image_name": "frankfurt_000001_080391.png",
+            "bbox": [
+                1254,
+                349,
+                1278,
+                367
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.2727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7272727272727273
+            ],
+            "drawn_prob": 0.2727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_029236.png_2",
+            "image_name": "frankfurt_000001_029236.png",
+            "bbox": [
+                1060,
+                410,
+                1133,
+                448
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_051807.png_4",
+            "image_name": "frankfurt_000001_051807.png",
+            "bbox": [
+                676,
+                424,
+                703,
+                456
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000003_000019.png_0",
+            "image_name": "munster_000003_000019.png",
+            "bbox": [
+                1446,
+                420,
+                1459,
+                454
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364,
+                0.36363636363636365
+            ],
+            "drawn_prob": 0.6363636363636364,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.6
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_068682.png_0",
+            "image_name": "frankfurt_000001_068682.png",
+            "bbox": [
+                1017,
+                397,
+                1026,
+                420
+            ],
+            "soft_label": [
+                0.6818181818181818,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.6818181818181818,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.3
+            }
+        },
+        {
+            "box_id": "munster_000057_000019.png_2",
+            "image_name": "munster_000057_000019.png",
+            "bbox": [
+                878,
+                422,
+                889,
+                461
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_044227.png_1",
+            "image_name": "frankfurt_000001_044227.png",
+            "bbox": [
+                717,
+                418,
+                730,
+                435
+            ],
+            "soft_label": [
+                0.0,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_029600.png_0",
+            "image_name": "frankfurt_000001_029600.png",
+            "bbox": [
+                947,
+                334,
+                1078,
+                422
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.8181818181818182,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_055062.png_2",
+            "image_name": "frankfurt_000001_055062.png",
+            "bbox": [
+                1036,
+                380,
+                1091,
+                468
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_055709.png_3",
+            "image_name": "frankfurt_000001_055709.png",
+            "bbox": [
+                1321,
+                403,
+                1339,
+                424
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000000_000019.png_1",
+            "image_name": "munster_000000_000019.png",
+            "bbox": [
+                269,
+                397,
+                696,
+                554
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000107_000019.png_0",
+            "image_name": "munster_000107_000019.png",
+            "bbox": [
+                915,
+                415,
+                931,
+                436
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_063045.png_0",
+            "image_name": "frankfurt_000001_063045.png",
+            "bbox": [
+                145,
+                429,
+                171,
+                508
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8636363636363636,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_066832.png_0",
+            "image_name": "frankfurt_000001_066832.png",
+            "bbox": [
+                85,
+                363,
+                119,
+                451
+            ],
+            "soft_label": [
+                0.9545454545454546,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000162_000019.png_1",
+            "image_name": "munster_000162_000019.png",
+            "bbox": [
+                1981,
+                389,
+                2005,
+                490
+            ],
+            "soft_label": [
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000110_000019.png_2",
+            "image_name": "munster_000110_000019.png",
+            "bbox": [
+                839,
+                440,
+                862,
+                463
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000098_000019.png_1",
+            "image_name": "munster_000098_000019.png",
+            "bbox": [
+                1052,
+                421,
+                1067,
+                442
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.6818181818181818,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.6818181818181818,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_051737.png_0",
+            "image_name": "frankfurt_000001_051737.png",
+            "bbox": [
+                1054,
+                446,
+                1070,
+                459
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_013067.png_0",
+            "image_name": "frankfurt_000000_013067.png",
+            "bbox": [
+                819,
+                379,
+                840,
+                400
+            ],
+            "soft_label": [
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_044787.png_3",
+            "image_name": "frankfurt_000001_044787.png",
+            "bbox": [
+                1228,
+                353,
+                1257,
+                458
+            ],
+            "soft_label": [
+                0.0,
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000013_000019.png_0",
+            "image_name": "munster_000013_000019.png",
+            "bbox": [
+                483,
+                413,
+                514,
+                465
+            ],
+            "soft_label": [
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_062653.png_0",
+            "image_name": "frankfurt_000001_062653.png",
+            "bbox": [
+                1376,
+                345,
+                1398,
+                420
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_002759.png_4",
+            "image_name": "frankfurt_000001_002759.png",
+            "bbox": [
+                1160,
+                402,
+                1179,
+                420
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000049_000019.png_1",
+            "image_name": "munster_000049_000019.png",
+            "bbox": [
+                246,
+                433,
+                253,
+                470
+            ],
+            "soft_label": [
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.1
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_077092.png_0",
+            "image_name": "frankfurt_000001_077092.png",
+            "bbox": [
+                1132,
+                385,
+                1150,
+                427
+            ],
+            "soft_label": [
+                0.7727272727272727,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_032711.png_1",
+            "image_name": "frankfurt_000001_032711.png",
+            "bbox": [
+                636,
+                400,
+                699,
+                477
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_060135.png_0",
+            "image_name": "frankfurt_000001_060135.png",
+            "bbox": [
+                91,
+                345,
+                538,
+                497
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.22727272727272727,
+            "drawn_class_name": "bus",
+            "drawn_class_index": 4,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_049298.png_0",
+            "image_name": "frankfurt_000001_049298.png",
+            "bbox": [
+                288,
+                406,
+                391,
+                482
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000100_000019.png_0",
+            "image_name": "munster_000100_000019.png",
+            "bbox": [
+                319,
+                301,
+                842,
+                529
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_050149.png_2",
+            "image_name": "frankfurt_000001_050149.png",
+            "bbox": [
+                906,
+                369,
+                950,
+                465
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000124_000019.png_0",
+            "image_name": "munster_000124_000019.png",
+            "bbox": [
+                587,
+                454,
+                604,
+                469
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.22727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7727272727272727
+            ],
+            "drawn_prob": 0.22727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_002759.png_2",
+            "image_name": "frankfurt_000001_002759.png",
+            "bbox": [
+                92,
+                366,
+                154,
+                496
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000007_000019.png_0",
+            "image_name": "munster_000007_000019.png",
+            "bbox": [
+                1033,
+                433,
+                1059,
+                481
+            ],
+            "soft_label": [
+                0.045454545454545456,
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_001751.png_2",
+            "image_name": "frankfurt_000000_001751.png",
+            "bbox": [
+                740,
+                397,
+                779,
+                437
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000084_000019.png_1",
+            "image_name": "munster_000084_000019.png",
+            "bbox": [
+                103,
+                439,
+                127,
+                475
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5,
+                0.5
+            ],
+            "drawn_prob": 0.5,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "munster_000146_000019.png_3",
+            "image_name": "munster_000146_000019.png",
+            "bbox": [
+                1230,
+                447,
+                1312,
+                538
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000003_000019.png_1",
+            "image_name": "munster_000003_000019.png",
+            "bbox": [
+                423,
+                404,
+                551,
+                488
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000026_000019.png_1",
+            "image_name": "munster_000026_000019.png",
+            "bbox": [
+                1688,
+                460,
+                1716,
+                492
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_062016.png_2",
+            "image_name": "frankfurt_000001_062016.png",
+            "bbox": [
+                1122,
+                403,
+                1134,
+                433
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.18181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8181818181818182
+            ],
+            "drawn_prob": 0.18181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 0.1
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_057181.png_1",
+            "image_name": "frankfurt_000001_057181.png",
+            "bbox": [
+                1455,
+                322,
+                1476,
+                363
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000138_000019.png_4",
+            "image_name": "munster_000138_000019.png",
+            "bbox": [
+                1190,
+                406,
+                1210,
+                475
+            ],
+            "soft_label": [
+                0.18181818181818182,
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.18181818181818182,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "lindau_000029_000019.png_0",
+            "image_name": "lindau_000029_000019.png",
+            "bbox": [
+                862,
+                394,
+                974,
+                546
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000069_000019.png_7",
+            "image_name": "munster_000069_000019.png",
+            "bbox": [
+                1301,
+                418,
+                1331,
+                462
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9090909090909091,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "motorcycle",
+            "drawn_class_index": 6,
+            "annotation_index": 7,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_055306.png_0",
+            "image_name": "frankfurt_000001_055306.png",
+            "bbox": [
+                1528,
+                404,
+                1586,
+                493
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_003056.png_0",
+            "image_name": "frankfurt_000001_003056.png",
+            "bbox": [
+                334,
+                302,
+                650,
+                483
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456,
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "bus",
+            "drawn_class_index": 4,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000128_000019.png_1",
+            "image_name": "munster_000128_000019.png",
+            "bbox": [
+                1176,
+                427,
+                1220,
+                483
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_059119.png_0",
+            "image_name": "frankfurt_000001_059119.png",
+            "bbox": [
+                1387,
+                264,
+                1529,
+                664
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_012038.png_3",
+            "image_name": "frankfurt_000001_012038.png",
+            "bbox": [
+                772,
+                353,
+                800,
+                424
+            ],
+            "soft_label": [
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_049078.png_1",
+            "image_name": "frankfurt_000001_049078.png",
+            "bbox": [
+                499,
+                406,
+                591,
+                508
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_040732.png_0",
+            "image_name": "frankfurt_000001_040732.png",
+            "bbox": [
+                371,
+                407,
+                417,
+                450
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8181818181818182,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "train",
+            "drawn_class_index": 5,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_062653.png_1",
+            "image_name": "frankfurt_000001_062653.png",
+            "bbox": [
+                1137,
+                382,
+                1182,
+                464
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_021667.png_0",
+            "image_name": "frankfurt_000000_021667.png",
+            "bbox": [
+                837,
+                391,
+                865,
+                407
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "munster_000017_000019.png_0",
+            "image_name": "munster_000017_000019.png",
+            "bbox": [
+                953,
+                433,
+                966,
+                457
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_020321.png_3",
+            "image_name": "frankfurt_000000_020321.png",
+            "bbox": [
+                684,
+                379,
+                758,
+                400
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_057478.png_5",
+            "image_name": "frankfurt_000001_057478.png",
+            "bbox": [
+                1438,
+                329,
+                1450,
+                346
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.22727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7727272727272727
+            ],
+            "drawn_prob": 0.22727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 5,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_064798.png_2",
+            "image_name": "frankfurt_000001_064798.png",
+            "bbox": [
+                1089,
+                409,
+                1115,
+                431
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_047178.png_0",
+            "image_name": "frankfurt_000001_047178.png",
+            "bbox": [
+                1059,
+                408,
+                1073,
+                428
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.22727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7727272727272727
+            ],
+            "drawn_prob": 0.22727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_008688.png_1",
+            "image_name": "frankfurt_000001_008688.png",
+            "bbox": [
+                1558,
+                381,
+                1578,
+                407
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "lindau_000013_000019.png_1",
+            "image_name": "lindau_000013_000019.png",
+            "bbox": [
+                1139,
+                468,
+                1156,
+                516
+            ],
+            "soft_label": [
+                0.0,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.3
+            }
+        },
+        {
+            "box_id": "munster_000001_000019.png_1",
+            "image_name": "munster_000001_000019.png",
+            "bbox": [
+                832,
+                437,
+                873,
+                466
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000170_000019.png_1",
+            "image_name": "munster_000170_000019.png",
+            "bbox": [
+                813,
+                417,
+                836,
+                453
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000162_000019.png_0",
+            "image_name": "munster_000162_000019.png",
+            "bbox": [
+                572,
+                424,
+                654,
+                590
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_008206.png_3",
+            "image_name": "frankfurt_000000_008206.png",
+            "bbox": [
+                1210,
+                398,
+                1221,
+                406
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.18181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8181818181818182
+            ],
+            "drawn_prob": 0.18181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "munster_000147_000019.png_2",
+            "image_name": "munster_000147_000019.png",
+            "bbox": [
+                801,
+                411,
+                832,
+                501
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_047552.png_0",
+            "image_name": "frankfurt_000001_047552.png",
+            "bbox": [
+                1023,
+                404,
+                1034,
+                422
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_000538.png_0",
+            "image_name": "frankfurt_000001_000538.png",
+            "bbox": [
+                444,
+                377,
+                475,
+                442
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_017101.png_1",
+            "image_name": "frankfurt_000001_017101.png",
+            "bbox": [
+                500,
+                361,
+                510,
+                370
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_020046.png_1",
+            "image_name": "frankfurt_000001_020046.png",
+            "bbox": [
+                904,
+                400,
+                920,
+                431
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_059119.png_2",
+            "image_name": "frankfurt_000001_059119.png",
+            "bbox": [
+                865,
+                416,
+                871,
+                439
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "munster_000010_000019.png_2",
+            "image_name": "munster_000010_000019.png",
+            "bbox": [
+                1263,
+                394,
+                1284,
+                407
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_010156.png_0",
+            "image_name": "frankfurt_000001_010156.png",
+            "bbox": [
+                263,
+                391,
+                304,
+                429
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000053_000019.png_4",
+            "image_name": "munster_000053_000019.png",
+            "bbox": [
+                1037,
+                460,
+                1055,
+                489
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.5909090909090909,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_049770.png_1",
+            "image_name": "frankfurt_000001_049770.png",
+            "bbox": [
+                1126,
+                389,
+                1145,
+                415
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7272727272727273,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.8
+            }
+        },
+        {
+            "box_id": "munster_000020_000019.png_2",
+            "image_name": "munster_000020_000019.png",
+            "bbox": [
+                341,
+                445,
+                415,
+                518
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000085_000019.png_0",
+            "image_name": "munster_000085_000019.png",
+            "bbox": [
+                1105,
+                458,
+                1155,
+                522
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364,
+                0.36363636363636365
+            ],
+            "drawn_prob": 0.6363636363636364,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.1
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_015328.png_0",
+            "image_name": "frankfurt_000001_015328.png",
+            "bbox": [
+                733,
+                445,
+                787,
+                558
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9545454545454546,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.9545454545454546,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000021_000019.png_1",
+            "image_name": "munster_000021_000019.png",
+            "bbox": [
+                1636,
+                421,
+                1741,
+                481
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_009291.png_1",
+            "image_name": "frankfurt_000000_009291.png",
+            "bbox": [
+                1528,
+                379,
+                1554,
+                395
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000001_000019.png_0",
+            "image_name": "munster_000001_000019.png",
+            "bbox": [
+                945,
+                435,
+                955,
+                447
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000157_000019.png_0",
+            "image_name": "munster_000157_000019.png",
+            "bbox": [
+                1105,
+                410,
+                1132,
+                421
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.22727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7727272727272727
+            ],
+            "drawn_prob": 0.22727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_005184.png_1",
+            "image_name": "frankfurt_000001_005184.png",
+            "bbox": [
+                152,
+                163,
+                173,
+                220
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000025_000019.png_3",
+            "image_name": "munster_000025_000019.png",
+            "bbox": [
+                887,
+                435,
+                898,
+                456
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 0.8
+            }
+        },
+        {
+            "box_id": "munster_000102_000019.png_1",
+            "image_name": "munster_000102_000019.png",
+            "bbox": [
+                1250,
+                443,
+                1315,
+                500
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000020_000019.png_4",
+            "image_name": "munster_000020_000019.png",
+            "bbox": [
+                1134,
+                385,
+                1223,
+                464
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.5,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 3,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "munster_000030_000019.png_0",
+            "image_name": "munster_000030_000019.png",
+            "bbox": [
+                539,
+                402,
+                646,
+                471
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 3,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_033655.png_2",
+            "image_name": "frankfurt_000001_033655.png",
+            "bbox": [
+                466,
+                404,
+                586,
+                504
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_012870.png_2",
+            "image_name": "frankfurt_000001_012870.png",
+            "bbox": [
+                1999,
+                297,
+                2047,
+                532
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_016029.png_0",
+            "image_name": "frankfurt_000001_016029.png",
+            "bbox": [
+                592,
+                407,
+                613,
+                431
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.7
+            }
+        },
+        {
+            "box_id": "munster_000002_000019.png_2",
+            "image_name": "munster_000002_000019.png",
+            "bbox": [
+                969,
+                451,
+                985,
+                462
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.4090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5909090909090909
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000000_000019.png_0",
+            "image_name": "munster_000000_000019.png",
+            "bbox": [
+                1320,
+                383,
+                1343,
+                451
+            ],
+            "soft_label": [
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_083199.png_1",
+            "image_name": "frankfurt_000001_083199.png",
+            "bbox": [
+                933,
+                388,
+                997,
+                439
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_014221.png_4",
+            "image_name": "frankfurt_000001_014221.png",
+            "bbox": [
+                700,
+                403,
+                770,
+                458
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000094_000019.png_2",
+            "image_name": "munster_000094_000019.png",
+            "bbox": [
+                1342,
+                441,
+                1363,
+                470
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_029236.png_1",
+            "image_name": "frankfurt_000001_029236.png",
+            "bbox": [
+                1115,
+                392,
+                1198,
+                483
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000079_000019.png_1",
+            "image_name": "munster_000079_000019.png",
+            "bbox": [
+                875,
+                429,
+                919,
+                471
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.7727272727272727,
+                0.0,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "bus",
+            "drawn_class_index": 4,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "munster_000162_000019.png_3",
+            "image_name": "munster_000162_000019.png",
+            "bbox": [
+                571,
+                423,
+                656,
+                593
+            ],
+            "soft_label": [
+                0.09090909090909091,
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000145_000019.png_1",
+            "image_name": "munster_000145_000019.png",
+            "bbox": [
+                797,
+                427,
+                811,
+                464
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_060545.png_2",
+            "image_name": "frankfurt_000001_060545.png",
+            "bbox": [
+                1202,
+                346,
+                1231,
+                395
+            ],
+            "soft_label": [
+                0.045454545454545456,
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000072_000019.png_0",
+            "image_name": "munster_000072_000019.png",
+            "bbox": [
+                1751,
+                379,
+                1809,
+                441
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8181818181818182,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000097_000019.png_0",
+            "image_name": "munster_000097_000019.png",
+            "bbox": [
+                763,
+                422,
+                790,
+                512
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000157_000019.png_1",
+            "image_name": "munster_000157_000019.png",
+            "bbox": [
+                684,
+                422,
+                696,
+                451
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.6363636363636364,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.36363636363636365
+            ],
+            "drawn_prob": 0.6363636363636364,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_082087.png_2",
+            "image_name": "frankfurt_000001_082087.png",
+            "bbox": [
+                1091,
+                340,
+                1113,
+                358
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 0.1
+            }
+        },
+        {
+            "box_id": "munster_000143_000019.png_6",
+            "image_name": "munster_000143_000019.png",
+            "bbox": [
+                458,
+                435,
+                513,
+                583
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 6,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_078803.png_0",
+            "image_name": "frankfurt_000001_078803.png",
+            "bbox": [
+                537,
+                380,
+                546,
+                400
+            ],
+            "soft_label": [
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_050149.png_4",
+            "image_name": "frankfurt_000001_050149.png",
+            "bbox": [
+                59,
+                414,
+                90,
+                472
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000116_000019.png_1",
+            "image_name": "munster_000116_000019.png",
+            "bbox": [
+                968,
+                309,
+                1135,
+                371
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.045454545454545456,
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_030067.png_1",
+            "image_name": "frankfurt_000001_030067.png",
+            "bbox": [
+                1014,
+                404,
+                1052,
+                446
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000078_000019.png_1",
+            "image_name": "munster_000078_000019.png",
+            "bbox": [
+                855,
+                399,
+                867,
+                434
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8181818181818182,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_028335.png_0",
+            "image_name": "frankfurt_000001_028335.png",
+            "bbox": [
+                1063,
+                399,
+                1082,
+                428
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_013710.png_2",
+            "image_name": "frankfurt_000001_013710.png",
+            "bbox": [
+                1051,
+                353,
+                1063,
+                372
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456,
+                0.5454545454545454,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "motorcycle",
+            "drawn_class_index": 6,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 0.8
+            }
+        },
+        {
+            "box_id": "munster_000087_000019.png_0",
+            "image_name": "munster_000087_000019.png",
+            "bbox": [
+                1265,
+                431,
+                1278,
+                457
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000075_000019.png_0",
+            "image_name": "munster_000075_000019.png",
+            "bbox": [
+                885,
+                450,
+                916,
+                506
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000045_000019.png_4",
+            "image_name": "munster_000045_000019.png",
+            "bbox": [
+                1226,
+                387,
+                1253,
+                422
+            ],
+            "soft_label": [
+                0.0,
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000122_000019.png_0",
+            "image_name": "munster_000122_000019.png",
+            "bbox": [
+                886,
+                406,
+                968,
+                513
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.6818181818181818,
+                0.0,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "bus",
+            "drawn_class_index": 4,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_002759.png_1",
+            "image_name": "frankfurt_000001_002759.png",
+            "bbox": [
+                880,
+                346,
+                910,
+                427
+            ],
+            "soft_label": [
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_021667.png_1",
+            "image_name": "frankfurt_000000_021667.png",
+            "bbox": [
+                794,
+                393,
+                817,
+                407
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "munster_000142_000019.png_2",
+            "image_name": "munster_000142_000019.png",
+            "bbox": [
+                335,
+                403,
+                422,
+                640
+            ],
+            "soft_label": [
+                0.4090909090909091,
+                0.5909090909090909,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.4090909090909091,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000144_000019.png_0",
+            "image_name": "munster_000144_000019.png",
+            "bbox": [
+                1237,
+                429,
+                1262,
+                451
+            ],
+            "soft_label": [
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_076502.png_1",
+            "image_name": "frankfurt_000001_076502.png",
+            "bbox": [
+                1216,
+                309,
+                1292,
+                578
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000032_000019.png_1",
+            "image_name": "munster_000032_000019.png",
+            "bbox": [
+                468,
+                420,
+                479,
+                431
+            ],
+            "soft_label": [
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_080391.png_0",
+            "image_name": "frankfurt_000001_080391.png",
+            "bbox": [
+                1233,
+                370,
+                1276,
+                425
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000066_000019.png_3",
+            "image_name": "munster_000066_000019.png",
+            "bbox": [
+                1053,
+                452,
+                1064,
+                458
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.13636363636363635,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8636363636363636
+            ],
+            "drawn_prob": 0.13636363636363635,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 0.8
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_083029.png_0",
+            "image_name": "frankfurt_000001_083029.png",
+            "bbox": [
+                1134,
+                368,
+                1200,
+                391
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.6818181818181818,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.6818181818181818,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "lindau_000007_000019.png_0",
+            "image_name": "lindau_000007_000019.png",
+            "bbox": [
+                1437,
+                387,
+                1505,
+                401
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000059_000019.png_3",
+            "image_name": "munster_000059_000019.png",
+            "bbox": [
+                257,
+                413,
+                340,
+                472
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_008451.png_3",
+            "image_name": "frankfurt_000000_008451.png",
+            "bbox": [
+                1306,
+                423,
+                1351,
+                458
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_083852.png_2",
+            "image_name": "frankfurt_000001_083852.png",
+            "bbox": [
+                1056,
+                392,
+                1073,
+                414
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000071_000019.png_2",
+            "image_name": "munster_000071_000019.png",
+            "bbox": [
+                930,
+                407,
+                952,
+                425
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.8181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.8181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "lindau_000038_000019.png_0",
+            "image_name": "lindau_000038_000019.png",
+            "bbox": [
+                179,
+                387,
+                458,
+                503
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_083199.png_2",
+            "image_name": "frankfurt_000001_083199.png",
+            "bbox": [
+                1097,
+                397,
+                1113,
+                416
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 0.1
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_082087.png_0",
+            "image_name": "frankfurt_000001_082087.png",
+            "bbox": [
+                553,
+                242,
+                889,
+                476
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454,
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "train",
+            "drawn_class_index": 5,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_072295.png_0",
+            "image_name": "frankfurt_000001_072295.png",
+            "bbox": [
+                703,
+                387,
+                722,
+                411
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_055603.png_1",
+            "image_name": "frankfurt_000001_055603.png",
+            "bbox": [
+                1476,
+                333,
+                1623,
+                633
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000058_000019.png_1",
+            "image_name": "munster_000058_000019.png",
+            "bbox": [
+                931,
+                422,
+                1037,
+                514
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_002646.png_3",
+            "image_name": "frankfurt_000001_002646.png",
+            "bbox": [
+                90,
+                392,
+                109,
+                459
+            ],
+            "soft_label": [
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_011162.png_2",
+            "image_name": "frankfurt_000001_011162.png",
+            "bbox": [
+                1107,
+                326,
+                1210,
+                430
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "truck",
+            "drawn_class_index": 3,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000147_000019.png_0",
+            "image_name": "munster_000147_000019.png",
+            "bbox": [
+                499,
+                434,
+                511,
+                453
+            ],
+            "soft_label": [
+                0.7272727272727273,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.2727272727272727
+            ],
+            "drawn_prob": 0.7272727272727273,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000011_000019.png_2",
+            "image_name": "munster_000011_000019.png",
+            "bbox": [
+                1091,
+                430,
+                1099,
+                458
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.2727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7272727272727273
+            ],
+            "drawn_prob": 0.2727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000020_000019.png_0",
+            "image_name": "munster_000020_000019.png",
+            "bbox": [
+                371,
+                428,
+                398,
+                453
+            ],
+            "soft_label": [
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.13636363636363635
+            ],
+            "drawn_prob": 0.8636363636363636,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000141_000019.png_1",
+            "image_name": "munster_000141_000019.png",
+            "bbox": [
+                737,
+                382,
+                766,
+                550
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_080091.png_1",
+            "image_name": "frankfurt_000001_080091.png",
+            "bbox": [
+                707,
+                343,
+                848,
+                534
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_028590.png_1",
+            "image_name": "frankfurt_000001_028590.png",
+            "bbox": [
+                1229,
+                372,
+                1354,
+                459
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000022_000019.png_2",
+            "image_name": "munster_000022_000019.png",
+            "bbox": [
+                1156,
+                419,
+                1181,
+                435
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.36363636363636365,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6363636363636364
+            ],
+            "drawn_prob": 0.36363636363636365,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 0.8
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_015768.png_1",
+            "image_name": "frankfurt_000001_015768.png",
+            "bbox": [
+                326,
+                399,
+                570,
+                672
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_028232.png_1",
+            "image_name": "frankfurt_000001_028232.png",
+            "bbox": [
+                924,
+                393,
+                932,
+                403
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.22727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7727272727272727
+            ],
+            "drawn_prob": 0.22727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_076502.png_0",
+            "image_name": "frankfurt_000001_076502.png",
+            "bbox": [
+                477,
+                296,
+                622,
+                581
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_035144.png_1",
+            "image_name": "frankfurt_000001_035144.png",
+            "bbox": [
+                2009,
+                530,
+                2047,
+                758
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.45454545454545453,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5454545454545454
+            ],
+            "drawn_prob": 0.45454545454545453,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_068208.png_0",
+            "image_name": "frankfurt_000001_068208.png",
+            "bbox": [
+                376,
+                371,
+                417,
+                405
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.7727272727272727,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_062016.png_0",
+            "image_name": "frankfurt_000001_062016.png",
+            "bbox": [
+                634,
+                386,
+                656,
+                460
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_058057.png_2",
+            "image_name": "frankfurt_000001_058057.png",
+            "bbox": [
+                1105,
+                403,
+                1202,
+                473
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_073243.png_1",
+            "image_name": "frankfurt_000001_073243.png",
+            "bbox": [
+                1141,
+                392,
+                1154,
+                407
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000101_000019.png_0",
+            "image_name": "munster_000101_000019.png",
+            "bbox": [
+                1211,
+                419,
+                1231,
+                444
+            ],
+            "soft_label": [
+                0.045454545454545456,
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.4090909090909091
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.9
+            }
+        },
+        {
+            "box_id": "munster_000170_000019.png_2",
+            "image_name": "munster_000170_000019.png",
+            "bbox": [
+                512,
+                413,
+                642,
+                489
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 2,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000056_000019.png_0",
+            "image_name": "munster_000056_000019.png",
+            "bbox": [
+                1435,
+                393,
+                1475,
+                523
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.9090909090909091,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000150_000019.png_1",
+            "image_name": "munster_000150_000019.png",
+            "bbox": [
+                982,
+                410,
+                1004,
+                445
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000136_000019.png_0",
+            "image_name": "munster_000136_000019.png",
+            "bbox": [
+                1590,
+                390,
+                1615,
+                435
+            ],
+            "soft_label": [
+                0.045454545454545456,
+                0.8636363636363636,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.09090909090909091
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_075984.png_0",
+            "image_name": "frankfurt_000001_075984.png",
+            "bbox": [
+                641,
+                466,
+                659,
+                493
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7727272727272727,
+                0.22727272727272727
+            ],
+            "drawn_prob": 0.7727272727272727,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_019969.png_0",
+            "image_name": "frankfurt_000001_019969.png",
+            "bbox": [
+                1049,
+                424,
+                1058,
+                433
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.18181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8181818181818182
+            ],
+            "drawn_prob": 0.18181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.7
+            }
+        },
+        {
+            "box_id": "frankfurt_000000_020880.png_0",
+            "image_name": "frankfurt_000000_020880.png",
+            "bbox": [
+                928,
+                366,
+                997,
+                449
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_062793.png_0",
+            "image_name": "frankfurt_000001_062793.png",
+            "bbox": [
+                1087,
+                453,
+                1096,
+                472
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9090909090909091
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.6
+            }
+        },
+        {
+            "box_id": "munster_000092_000019.png_3",
+            "image_name": "munster_000092_000019.png",
+            "bbox": [
+                1501,
+                331,
+                2044,
+                731
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 3,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_042098.png_1",
+            "image_name": "frankfurt_000001_042098.png",
+            "bbox": [
+                229,
+                361,
+                274,
+                398
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.3181818181818182,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818
+            ],
+            "drawn_prob": 0.3181818181818182,
+            "drawn_class_name": "car",
+            "drawn_class_index": 2,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 0.2
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_016462.png_0",
+            "image_name": "frankfurt_000001_016462.png",
+            "bbox": [
+                321,
+                414,
+                370,
+                536
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_038245.png_4",
+            "image_name": "frankfurt_000001_038245.png",
+            "bbox": [
+                109,
+                324,
+                167,
+                404
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7272727272727273,
+                0.09090909090909091,
+                0.0,
+                0.0,
+                0.18181818181818182
+            ],
+            "drawn_prob": 0.09090909090909091,
+            "drawn_class_name": "train",
+            "drawn_class_index": 5,
+            "annotation_index": 4,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000140_000019.png_1",
+            "image_name": "munster_000140_000019.png",
+            "bbox": [
+                1070,
+                409,
+                1082,
+                431
+            ],
+            "soft_label": [
+                0.5454545454545454,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45454545454545453
+            ],
+            "drawn_prob": 0.5454545454545454,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "munster_000106_000019.png_0",
+            "image_name": "munster_000106_000019.png",
+            "bbox": [
+                1187,
+                433,
+                1197,
+                458
+            ],
+            "soft_label": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.6818181818181818,
+                0.3181818181818182
+            ],
+            "drawn_prob": 0.6818181818181818,
+            "drawn_class_name": "bicycle",
+            "drawn_class_index": 7,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_038645.png_1",
+            "image_name": "frankfurt_000001_038645.png",
+            "bbox": [
+                746,
+                381,
+                766,
+                431
+            ],
+            "soft_label": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "drawn_prob": 1.0,
+            "drawn_class_name": "person",
+            "drawn_class_index": 0,
+            "annotation_index": 1,
+            "human_class_agreement": {
+                "reviewer_1": 1.0
+            }
+        },
+        {
+            "box_id": "frankfurt_000001_028854.png_0",
+            "image_name": "frankfurt_000001_028854.png",
+            "bbox": [
+                232,
+                365,
+                262,
+                414
+            ],
+            "soft_label": [
+                0.9090909090909091,
+                0.045454545454545456,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.045454545454545456
+            ],
+            "drawn_prob": 0.045454545454545456,
+            "drawn_class_name": "rider",
+            "drawn_class_index": 1,
+            "annotation_index": 0,
+            "human_class_agreement": {
+                "reviewer_1": 0.2
+            }
+        }
+    ],
+    "review_metadata": {
+        "current_index": 200,
+        "total_samples": 200,
+        "reviewed_samples_for_current_reviewer": 200,
+        "review_finished_for_current_reviewer": true,
+        "reviewer_id": "reviewer_1",
+        "answer_key": "human_class_agreement",
+        "current_rendered_image": "review_images/current_reviewer_1.jpg",
+        "output_json": "review_decisions/Cityscapes_class_or_not_review_reviewer_1.json"
+    }
+}

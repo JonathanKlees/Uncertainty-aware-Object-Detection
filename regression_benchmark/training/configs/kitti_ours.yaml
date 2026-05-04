@@ -1,0 +1,4 @@
+train : /path/to/datasets/KITTI_ours/train/images/
+val : /path/to/datasets/KITTI_ours/val/images/
+nc : 7
+names : ['Car', 'Van', 'Truck', 'Pedestrian', 'Person_sitting', 'Cyclist', 'Tram']
