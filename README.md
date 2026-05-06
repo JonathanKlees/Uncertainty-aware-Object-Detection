@@ -1,4 +1,4 @@
-# Benchmark Paper Post-Processing
+# Object Detection Benchmarks are Incomplete: The Role of Label Errors and Annotation Uncertainty
 
 A comprehensive benchmark for **label error detection** in object detection datasets. This repository implements a full pipeline from crowd-sourced soft-label annotations through bias correction, label error ground truth creation, detection model benchmarking, and analysis/visualization for a research paper.
 
