@@ -7,7 +7,6 @@ A comprehensive benchmark for **uncertainty-aware object detection** and **label
   <a href="https://osvia.org/ObjectDetectionBenchmarksAreIncomplete/"><img src="https://img.shields.io/badge/🌐_Project_Page-4285F4?style=for-the-badge" alt="Project Page"></a>
   <a href="https://doi.org/10.7910/DVN/Q9N7G9"><img src="https://img.shields.io/badge/📦_Data-2E8B57?style=for-the-badge" alt="Data"></a>
 </p>
-<!-- TODO: replace the "#" hrefs above with the paper, project page, and data links -->
 
 <p align="center">
   <img src="assets/hotdog_sandwich_hybrid.png" alt="Hot dog / sandwich hybrid annotation example" width="320">
