@@ -5,7 +5,7 @@ A comprehensive benchmark for **uncertainty-aware object detection** and **label
 <p align="center">
   <a href="https://arxiv.org/pdf/2609.21822v1"><img src="https://img.shields.io/badge/📄_Paper-b31b1b?style=for-the-badge" alt="Paper"></a>
   <a href="https://osvia.org/ObjectDetectionBenchmarksAreIncomplete/"><img src="https://img.shields.io/badge/🌐_Project_Page-4285F4?style=for-the-badge" alt="Project Page"></a>
-  <a href="https://doi.org/10.7910/DVN/Q9N7G9"><img src="https://img.shields.io/badge/📦_Data-2E8B57?style=for-the-badge" alt="Data"></a>
+  <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Q9N7G9"><img src="https://img.shields.io/badge/📦_Data-2E8B57?style=for-the-badge" alt="Data"></a>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ Please see the individual ReadMe files within each folder for more detailed info
 | **COCO 2017** | 81 (80 COCO classes + cantsolve) | val |
 ---
 
-You can access the data at the Harvard Dataverse under  https://doi.org/10.7910/DVN/Q9N7G9. 
+You can access the data at the Harvard Dataverse under https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Q9N7G9. 
 The refined Annotations for Cityscapes are available within the Cityscapes platform.
 
 ## Key Concepts
