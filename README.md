@@ -1,18 +1,35 @@
 # Object Detection Benchmarks are Incomplete: The Role of Label Errors and Annotation Uncertainty
 
-A comprehensive benchmark for **label error detection** in object detection datasets. This repository implements a full pipeline from crowd-sourced soft-label annotations through bias correction, label error ground truth creation, detection model benchmarking, and analysis/visualization for a research paper.
+A comprehensive benchmark for **uncertainty-aware object detection** and **label error detection** in object detection datasets. This repository builds on crowd-sourced soft-label annotations for four common object detection datasets. It conducts post-processing such as annotator bias correction, benchmarks object detectors for the task of uncertainty-aware object detection and evaluates existing automated label error detection methods on a comprehensive collection of real label errors found through re-annotation.
+
+<p align="center">
+  <a href="https://arxiv.org/pdf/2609.21822v1"><img src="https://img.shields.io/badge/📄_Paper-b31b1b?style=for-the-badge" alt="Paper"></a>
+  <a href="https://osvia.org/ObjectDetectionBenchmarksAreIncomplete/"><img src="https://img.shields.io/badge/🌐_Project_Page-4285F4?style=for-the-badge" alt="Project Page"></a>
+  <a href="https://doi.org/10.7910/DVN/Q9N7G9"><img src="https://img.shields.io/badge/📦_Data-2E8B57?style=for-the-badge" alt="Data"></a>
+</p>
+<!-- TODO: replace the "#" hrefs above with the paper, project page, and data links -->
+
+<p align="center">
+  <img src="assets/hotdog_sandwich_hybrid.png" alt="Hot dog / sandwich hybrid annotation example" width="320">
+</p>
+
+<p align="center">
+  <em>The original single-label annotation ("Hot Dog") vs. our refined soft-label annotation, which captures the genuine ambiguity between "Hot Dog", "Sandwich", and "Can't Solve".</em>
+</p>
 
 ---
 
 ## Overview
 
-This project addresses the problem of **annotation errors in object detection datasets**. The core workflow is:
+This project addresses the problem of **annotation errors in object detection datasets** and introduces **uncertainty-aware evaluation in object detection**. The core workflow is:
 
-1. **Soft Label Post-Processing** — Correct systematic annotator bias in crowd-sourced bounding box annotations using the CleverLabel algorithm and other methods
-2. **Label Error Ground Truth (LEGT) Creation** — Compare original dataset annotations against crowd-validated ground truth (VGT) to identify and categorize label errors
-3. **Label Error Detection Benchmark** — Evaluate how well automated methods can detect these errors
-4. **Regression Benchmark** — Train and evaluate object detection models on original vs. corrected labels
-5. **Human Perception Study** — Compare soft label probabilities against human agreement ratings
+1. **Soft Label Post-Processing** — Correct systematic annotator bias in crowd-sourced bounding box annotations using the CleverLabel algorithm and other methods.
+2. **Alignment with Experts** — Here, we compare crowd-sourced soft labels against expert evaluations.
+3. **Label Error Ground Truth (LEGT) Creation** — Compare original dataset annotations against crowd-validated ground truth (VGT) to identify and categorize label errors.
+4. **Label Error Detection Benchmark** — Evaluate how well automated methods can detect these errors
+5. **Regression Benchmark** — Evaluate object detection models on original vs. corrected labels as well as on soft labels directly.
+
+Please see the individual ReadMe files within each folder for more detailed information.
 
 ### Datasets Covered
 
@@ -233,3 +250,40 @@ Scripts in `labelerrors/` follow a numbered convention indicating execution orde
 | `plot_*` | Generate paper figures |
 | `helpers_*` | Shared utility modules |
 | `filter_*` / `number_*` | Auxiliary analysis scripts |
+
+---
+
+## License
+
+License for Dataset Annotations
+===============================
+
+Copyright (c) 2026 Sarina Penquitt, Jonathan Klees, Antonia van Betteray,
+Parssa Jashnieh, Peter Stehr, Matthias Rottmann, Lars Schmarje
+
+The annotations created as part of our annotation pipeline are licensed
+under the Creative Commons Attribution-ShareAlike 4.0 International License
+(CC BY-SA 4.0).
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+This license applies to the annotations created as part of our annotation
+pipeline. The underlying images and original dataset content are not covered
+by this license and remain subject to the respective licenses and terms of
+the original datasets.
+
+---
+
+## Citation
+
+If you use this benchmark or the accompanying annotation data in your research, please cite:
+
+```bibtex
+@inproceedings{penquitt2026object,
+  title     = {{Object Detection Benchmarks are Incomplete: The Role of Label Errors and Annotation Uncertainty}},
+  author    = {Penquitt, Sarina and Klees, Jonathan and van Betteray, Antonia and Jashnieh, Parssa and Stehr, Peter and Rottmann, Matthias and Schmarje, Lars},
+  booktitle = {Advances in Neural Information Processing Systems Evaluations \& Datasets Track},
+  year      = {2026},
+}
+```
