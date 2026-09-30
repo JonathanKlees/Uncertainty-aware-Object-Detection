@@ -38,8 +38,10 @@ Please see the individual ReadMe files within each folder for more detailed info
 | **KITTI** | 8 (car, van, truck, pedestrian, person_sitting, cyclist, tram, cantsolve) | train, val |
 | **PascalVOC 2012** | 21 (20 VOC classes + cantsolve) | train, val |
 | **COCO 2017** | 81 (80 COCO classes + cantsolve) | val |
-
 ---
+
+You can access the data at the Harvard Dataverse under  https://doi.org/10.7910/DVN/Q9N7G9. 
+The refined Annotations for Cityscapes are available within the Cityscapes platform.
 
 ## Key Concepts
 
